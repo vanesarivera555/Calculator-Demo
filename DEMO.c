@@ -9,16 +9,16 @@ int main() {
 
     switch (operator) {
     case '+':
-        printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
+        printf("%.1lf + %.1lf = %.1lf\n", first, second, first + second);
         break;
     case '-':
-        printf("%.1lf - %.1lf = %.1lf", first, second, first - second);
+        printf("%.1lf - %.1lf = %.1lf\n", first, second, first - second);
         break;
     case '*':
-        printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
+        printf("%.1lf * %.1lf = %.1lf\n", first, second, first * second);
         break;
     case '/':
-        printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
+        printf("%.1lf / %.1lf = %.1lf\n", first, second, first / second);
         break;
         // operator doesn't match any case constant
     default:
@@ -26,6 +26,8 @@ int main() {
     }
 
     printf("I added this line! woohoo!\n");
+
+    printf("And this line from the IDE! wooohooo!\n");
 
     return 0;
 }
