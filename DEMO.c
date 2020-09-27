@@ -25,6 +25,8 @@ int main() {
         printf("Error! operator is not correct");
     }
 
+    printf("I added this line!\n");
+
     return 0;
 }
 
