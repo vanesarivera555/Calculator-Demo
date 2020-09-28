@@ -18,16 +18,12 @@ int main() {
         printf("%.1lf * %.1lf = %.1lf\n", first, second, first * second);
         break;
     case '/':
-        printf("%.1lf / %.1lf = %.1lf\n", first, second, first / second);
+	printf("TODO: Make the division case\n")
         break;
         // operator doesn't match any case constant
     default:
         printf("Error! operator is not correct");
     }
-
-    printf("I added this line! woohoo!\n");
-
-    printf("And this line from the IDE! wooohooo!\n");
 
     return 0;
 }
