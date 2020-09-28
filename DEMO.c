@@ -2,7 +2,7 @@
 int main() {
     char operator;
     double first, second;
-    printf("Enter an operator (+, -, *, TODO: /): ");
+    printf("Enter an operator (+, -, *, /): ");
     scanf("%c", &operator);
     printf("Enter two operands: ");
     scanf("%lf %lf", &first, &second);
@@ -18,7 +18,7 @@ int main() {
         printf("%.1lf * %.1lf = %.1lf\n", first, second, first * second);
         break;
     case '/':
-        printf("TODO: Make the division case\n");
+        printf("%.1lf / %.1lf = %.1lf\n", first, second, first / second);
         break;
         // operator doesn't match any case constant
     default:
